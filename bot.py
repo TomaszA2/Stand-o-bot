@@ -19,4 +19,4 @@ async def on_message(message):
         if szukane in message.content.lower():
             tmp = await client.send_message(message.channel, 'The enemy Stand has appeared!')
 
-client.run('NDA2Nzk0NDcwNzg1NTQ4Mjg4.DU4QWw.bJ56iFS8qdgRllGNVuYvSGyRgM0')
+client.run(os.getenv('TOKEN'))
