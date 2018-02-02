@@ -5,7 +5,6 @@ global str
 
 client = discord.Client()
 szukane="stand"
-znaleziono=0
 
 @client.event
 async def on_ready():
