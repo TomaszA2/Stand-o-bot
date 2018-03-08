@@ -16,7 +16,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author != client.user:
-        if message.author.nick != 'Joseph':
+        if message.author.nick != 'Joseph' and message.author.nick != 'Polnareff' and message.author.nick != 'Avdol' and message.author.nick != 'Iggy' and message.author.nick != 'Jotaro' and message.author.nick != 'Jokero':
             if szukane in message.content.lower():
                 tmp = await client.send_message(message.channel, 'The enemy Stand has appeared!')
 
